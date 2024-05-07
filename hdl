@@ -25,7 +25,11 @@
 ******************************************/
 // env.js 全局
 const $ = new Env("海底捞");//脚本名称
-const ckName = "7950ec8d-49e4-4763-9895-506253fde955";//环境变量声明
+const ckName = "TOKEN_APP_7950ec8d-49e4-4763-9895-506253fde955
+appVersion: 3.75.0
+Accept-Encoding: gzip,compress,br,deflate
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.31(0x18001f37) NetType/4G Language/zh_CN
+Referer: https://servicewechat.com/wx1ddeb67115f30d1a/133/page-frame.html";//环境变量声明
 //-------------------- 一般不动变量区域 -------------------------------------
 const Notify = 1;//0为关闭通知,1为打开通知,默认为1
 const notify = $.isNode() ? require('./sendNotify') : '';//通知，用于适配青龙
